@@ -1,0 +1,60 @@
+body.dabody .da-field-buttons .form-actions {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+body.dabody .da-field-buttons .form-actions button:last-child {
+  margin-left: auto !important;
+}
+
+body.dabody .hslNavContainer .links {
+  display: none !important;
+}
+
+body.dabody .da-field-checkboxes .btn-light {
+  display: flex !important;
+}
+
+body.dabody .da-field-checkboxes .btn-primary {
+  display: flex !important;
+}
+
+@media (min-width: 1000px) {
+  body.dabody .tab-pane .form-horizontal {
+    width: 750px;
+  }
+
+  body.dabody .col-md-4.col-form-label.datext-right {
+    min-width: 45% !important;
+    max-width: 45% !important;
+  }
+
+  body.dabody .da-field-container .dafieldpart {
+    min-width: 55% !important;
+    max-width: 55% !important;
+  }
+
+  body.dabody .tab-content .tab-pane.offset-xl-3 {
+    margin-left: 0 !important;
+  }
+
+  body.dabody .row.tab-content {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  body.dabody .row.tab-content #daquestion {
+    max-width: 100% !important;
+  }
+
+  body.dabody #daemailform .col-md-8 {
+    flex: none !important;
+    max-width: 100% !important;
+  }
+
+  body.dabody #daemailform .col-md-4 {
+    flex: none !important;
+    max-width: 100% !important;
+    text-align: left !important;
+  }
+}
