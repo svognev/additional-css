@@ -21,7 +21,7 @@ body.dabody .da-field-checkboxes .btn-primary {
 
 @media (min-width: 767px) {
   body.dabody .datext-right {
-    min-height: 0 !important;
+    min-height: 10px !important;
     text-align: left !important;
   }
 
@@ -56,11 +56,6 @@ body.dabody .da-field-checkboxes .btn-primary {
   }
 
   body.dabody .container {
-    width: 75% !important;
-    max-width: 750px !important;
-  }
-
-  body.dabody .hslNavContainer {
     width: 75% !important;
     max-width: 750px !important;
   }
