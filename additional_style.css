@@ -21,8 +21,12 @@ body.dabody .da-field-checkboxes .btn-primary {
 
 @media (min-width: 767px) {
   body.dabody .datext-right {
-    min-height: 10px !important;
+    min-height: 0 !important;
     text-align: left !important;
+  }
+
+  body.dabody .form-group {
+    margin-bottom: 1.5rem !important;
   }
 
   body.dabody .col-md-4 {
