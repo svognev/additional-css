@@ -19,42 +19,49 @@ body.dabody .da-field-checkboxes .btn-primary {
   display: flex !important;
 }
 
-@media (min-width: 1000px) {
-  body.dabody .tab-pane .form-horizontal {
-    width: 750px;
+@media (min-width: 767px) {
+  body.dabody .datext-right {
+    min-height: 0 !important;
+    text-align: left !important;
   }
 
-  body.dabody .col-md-4.col-form-label.datext-right {
-    min-width: 45% !important;
-    max-width: 45% !important;
+  body.dabody .col-md-4 {
+    -ms-flex: none !important;
+    flex: none !important;
+    max-width: none !important;
   }
 
-  body.dabody .da-field-container .dafieldpart {
-    min-width: 55% !important;
-    max-width: 55% !important;
+  body.dabody .form-group.darequired .col-form-label:after {
+    bottom: 0.7rem !important;
+    top: unset !important;
+    right: unset !important;
   }
 
-  body.dabody .tab-content .tab-pane.offset-xl-3 {
+  body.dabody .col-md-8 {
+    -ms-flex: none !important;
+    max-width: none !important;
+    flex: 0 auto !important;
+  }
+
+  body.dabody .offset-md-2 {
     margin-left: 0 !important;
   }
 
-  body.dabody .row.tab-content {
-    display: flex !important;
-    justify-content: center !important;
+  body.dabody .offset-lg-3 {
+    margin-left: 0 !important;
   }
 
-  body.dabody .row.tab-content #daquestion {
-    max-width: 100% !important;
+  body.dabody .offset-xl-3 {
+    margin-left: 0 !important;
   }
 
-  body.dabody #daemailform .col-md-8 {
-    flex: none !important;
-    max-width: 100% !important;
+  body.dabody .container {
+    width: 75% !important;
+    max-width: 750px !important;
   }
 
-  body.dabody #daemailform .col-md-4 {
-    flex: none !important;
-    max-width: 100% !important;
-    text-align: left !important;
+  body.dabody .hslNavContainer {
+    width: 75% !important;
+    max-width: 750px !important;
   }
 }
