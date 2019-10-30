@@ -49,21 +49,21 @@ body.dabody .dafieldpart .labelauty-checked-image {
   color: #007bff;
 }
 
-body.dabody .dafieldpart .da-field-radio .labelauty-checked-image {
+body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image {
   margin-left: -14px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
-body.dabody .dafieldpart .da-field-radio .labelauty-checked-image .fa-check {
+body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check {
   width: 7px;
   height: 7px;
   border-radius: 100%;
   background-color: #007bff;
 }
 
-body.dabody .dafieldpart .da-field-radio .labelauty-checked-image .fa-check path {
+body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check path {
   display: none;
 }
 
