@@ -32,7 +32,7 @@ body.dabody .dafieldpart .btn-primary:hover {
   border-color:#dae0e5
 }
 
-body.dabody .dafieldpart .btn-primary.focus, .btn-light:focus {
+body.dabody .dafieldpart .btn-primary.focus, .btn-primary:focus {
   box-shadow: 0 0 0 .2rem rgba(216, 217, 219, .5);
 }
 
