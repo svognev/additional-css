@@ -19,6 +19,37 @@ body.dabody .da-field-checkboxes .btn-primary {
   display: flex !important;
 }
 
+
+body.dabody .dafieldpart .btn-primary {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+body.dabody .dafieldpart .btn-primary:hover {
+  color:#212529;
+  background-color:#e2e6ea;
+  border-color:#dae0e5
+}
+
+body.dabody .dafieldpart .btn-primary.focus, .btn-light:focus {
+  box-shadow: 0 0 0 .2rem rgba(216, 217, 219, .5);
+}
+
+body.dabody .labelauty-unchecked-image .text-muted {
+ color: #6c757dad !important;
+}
+
+body.dabody .dafieldpart input.labelauty:checked + label > span.labelauty-unchecked-image {
+  display: inline-block;
+}
+
+body.dabody .dafieldpart .labelauty-checked-image {
+  position: absolute;
+  color: #007bff;
+}
+
+
 @media (min-width: 767px) {
   body.dabody .datext-right {
     min-height: 0 !important;
