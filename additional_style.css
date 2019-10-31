@@ -71,6 +71,10 @@ body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .
   display: none;
 }
 
+body.dabody .tab-pane .alert-success {
+  display: none;
+}
+
 @media (min-width: 767px) {
   body.dabody .datext-right {
     min-height: 0 !important;
