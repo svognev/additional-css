@@ -42,7 +42,12 @@ body.dabody .dafieldpart .btn-primary:hover:active {
   box-shadow: none !important;
 }
 
-body.dabody .dafieldpart .btn-primary.focus, .btn-primary:focus {
+body.dabody .dafieldpart .btn-primary.focus, body.dabody .dafieldpart .btn-primary:focus {
+  box-shadow: none !important;
+  outline: none;
+}
+
+body.dabody .dafieldpart .btn-light.focus, body.dabody .dafieldpart .btn-light:focus {
   box-shadow: none !important;
   outline: none;
 }
