@@ -28,14 +28,14 @@ body.dabody .dafieldpart .btn-primary, body.dabody .dafieldpart .btn-light {
 
 body.dabody .dafieldpart .btn-primary:hover, body.dabody .dafieldpart .btn-primary:hover {
   color: #212529 !important;
-  background-color: #e2e6ea !important;
-  border-color: #e2e6ea !important;
+  background-color: gainsboro !important;
+  border-color: gainsboro !important;
 }
 
 body.dabody .dafieldpart .btn-light:hover, body.dabody .dafieldpart .btn-light:hover {
   color: #212529 !important;
-  background-color: #e2e6ea !important;
-  border-color: #e2e6ea !important;
+  background-color: gainsboro !important;
+  border-color: gainsboro !important;
 }
 
 body.dabody .dafieldpart .btn-primary:hover:active {
