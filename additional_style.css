@@ -27,7 +27,13 @@ body.dabody .dafieldpart .btn-primary, body.dabody .dafieldpart .btn-light {
 }
 
 body.dabody .dafieldpart .btn-primary:hover, body.dabody .dafieldpart .btn-primary:hover {
-  color:#212529 !important;
+  color: #212529 !important;
+  background-color: #f8f9fa !important;
+  border-color: #f8f9fa !important;
+}
+
+body.dabody .dafieldpart .btn-light:hover, body.dabody .dafieldpart .btn-light:hover {
+  color: #212529 !important;
   background-color: #f8f9fa !important;
   border-color: #f8f9fa !important;
 }
@@ -37,7 +43,7 @@ body.dabody .dafieldpart .btn-primary:hover:active {
 }
 
 body.dabody .dafieldpart .btn-primary.focus, .btn-primary:focus {
-  box-shadow: 0 0 0 .2rem rgba(216, 217, 219, .5) !important;
+  box-shadow: none !important;
 }
 
 body.dabody .labelauty-unchecked-image .text-muted {
