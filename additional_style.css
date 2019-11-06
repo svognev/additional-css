@@ -62,7 +62,6 @@ body.dabody .dafieldpart .labelauty-checked-image {
   justify-content: center !important;
   width: 16px !important;
   height: 16px !important;
-  border: 1px solid white !important;
   position: absolute !important;
   color: #007bff !important;
 }
@@ -73,11 +72,18 @@ body.dabody .dafieldpart .labelauty-unchecked-image {
   justify-content: center !important;
   width: 16px !important;
   height: 16px !important;
-  border: 1px solid white !important;
 }
 
 body.dabody .dafieldpart .btn-light .labelauty-checked-image {
   display: none !important;
+}
+
+body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image {
+  border: 1px solid white !important;
+}
+
+body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image .fa-circle {
+  width: 95% !important;
 }
 
 body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image {
