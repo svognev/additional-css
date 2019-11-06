@@ -56,20 +56,13 @@ body.dabody .labelauty-unchecked-image .text-muted {
  color: #6c757dad !important;
 }
 
-body.dabody .dafieldpart input.labelauty:checked + label > span.labelauty-unchecked-image {
+body.dabody .dafieldpart input.labelauty:checked + label > span.labelauty-unchecked-image, body.dabody .dafieldpart input.labelauty + label > span.labelauty-unchecked-image {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
   width: 16px;
   height: 16px;
-}
-
-body.dabody .dafieldpart input.labelauty + label > span.labelauty-unchecked-image {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
+  border: 1px solid white;
 }
 
 body.dabody .dafieldpart input.labelauty:not(:checked) + label > span.labelauty-checked-image {
@@ -97,6 +90,10 @@ body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .
   height: 7px;
   border-radius: 100%;
   background-color: #007bff;
+}
+
+body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-unchecked-image .fa-check {
+  width: 95% !important;
 }
 
 body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check path {
