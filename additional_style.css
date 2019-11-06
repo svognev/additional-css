@@ -56,46 +56,32 @@ body.dabody .labelauty-unchecked-image .text-muted {
  color: #6c757dad !important;
 }
 
-body.dabody .da-field-checkboxes .labelauty-checked-image {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-}
-
-body.dabody .dafieldpart input.labelauty:checked + label > span.labelauty-unchecked-image {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-  border: 1px solid white;
-}
-
-body.dabody .dafieldpart input.labelauty + label > span.labelauty-unchecked-image {
-  display: inline-flex !important;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-  border: 1px solid white;
-}
-
-body.dabody .dafieldpart input.labelauty:not(:checked) + label > span.labelauty-checked-image {
-  display: none !important;
-}
-
 body.dabody .dafieldpart .labelauty-checked-image {
+  display: inline-flex;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 16px !important;
+  height: 16px !important;
+  border: 1px solid white !important;
   position: absolute !important;
   color: #007bff !important;
 }
 
-body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image {
-  margin-left: -16px !important;
+body.dabody .dafieldpart .labelauty-unchecked-image {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
+  width: 16px !important;
+  height: 16px !important;
+  border: 1px solid white !important;
+}
+
+body.dabody .dafieldpart .btn-light .labelauty-checked-image {
+  display: none !important;
+}
+
+body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image {
+  margin-left: -16px !important;
 }
 
 body.dabody .dafieldpart .da-field-checkboxes .btn-primary .labelauty-checked-image .fa-check {
