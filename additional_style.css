@@ -85,6 +85,15 @@ body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image {
 body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image:hover {
   border: 1px solid whitesmoke !important;
 }
+
+body.dabody .dafieldpart .da-field-radio .labelauty-checked-image {
+  border: 1px solid white !important;
+}
+
+body.dabody .dafieldpart .da-field-radio .labelauty-checked-image:hover {
+  border: 1px solid whitesmoke !important;
+}
+
 body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image .fa-circle {
   width: 95% !important;
 }
