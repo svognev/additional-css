@@ -64,6 +64,14 @@ body.dabody .dafieldpart input.labelauty:checked + label > span.labelauty-unchec
   height: 16px;
 }
 
+body.dabody .dafieldpart input.labelauty + label > span.labelauty-unchecked-image {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+}
+
 body.dabody .dafieldpart input.labelauty:not(:checked) + label > span.labelauty-checked-image {
   display: none !important;
 }
