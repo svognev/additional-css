@@ -56,7 +56,16 @@ body.dabody .labelauty-unchecked-image .text-muted {
  color: #6c757dad !important;
 }
 
-body.dabody .dafieldpart input.labelauty:checked + label > span.labelauty-unchecked-image, body.dabody .dafieldpart input.labelauty + label > span.labelauty-unchecked-image {
+body.dabody .dafieldpart input.labelauty:checked + label > span.labelauty-unchecked-image {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid white;
+}
+
+body.dabody .dafieldpart input.labelauty + label > span.labelauty-unchecked-image {
   display: inline-flex !important;
   align-items: center;
   justify-content: center;
