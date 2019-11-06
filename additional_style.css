@@ -82,7 +82,7 @@ body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image {
   border: 1px solid white !important;
 }
 
-body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image:hover {
+body.dabody .dafieldpart .da-field-radio label:hover .labelauty-unchecked-image {
   border: 1px solid whitesmoke !important;
 }
 
@@ -90,7 +90,7 @@ body.dabody .dafieldpart .da-field-radio .labelauty-checked-image {
   border: 1px solid white !important;
 }
 
-body.dabody .dafieldpart .da-field-radio .labelauty-checked-image:hover {
+body.dabody .dafieldpart .da-field-radio label:hover .labelauty-checked-image {
   border: 1px solid whitesmoke !important;
 }
 
