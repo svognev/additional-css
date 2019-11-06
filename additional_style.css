@@ -73,26 +73,6 @@ body.dabody .dafieldpart .btn-light .labelauty-checked-image {
   display: none !important;
 }
 
-body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image {
-  border: 1px solid white !important;
-}
-
-body.dabody .dafieldpart .da-field-radio label:hover .labelauty-unchecked-image {
-  border: 1px solid whitesmoke !important;
-}
-
-body.dabody .dafieldpart .da-field-radio .labelauty-checked-image {
-  border: 1px solid white !important;
-}
-
-body.dabody .dafieldpart .da-field-radio label:hover .labelauty-checked-image {
-  border: 1px solid whitesmoke !important;
-}
-
-body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image .fa-circle {
-  width: 95% !important;
-}
-
 body.dabody .dafieldpart .da-field-checkboxes .btn-primary .labelauty-checked-image .fa-check {
   width: 65% !important;
 }
@@ -107,11 +87,11 @@ body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .
 }
 
 body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check path {
-  display: none;
+  display: none !important;
 }
 
 body.dabody .tab-pane .alert-success {
-  display: none;
+  display: none !important;
 }
 
 body.dabody .da-field-container-note .col-md-12 {
