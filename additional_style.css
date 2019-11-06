@@ -73,7 +73,7 @@ body.dabody .dafieldpart .labelauty-checked-image {
   color: #007bff !important;
 }
 
-body.dabody .dafieldpart .btn-primary .labelauty-checked-image {
+body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image {
   margin-left: -16px !important;
   display: inline-flex !important;
   align-items: center !important;
