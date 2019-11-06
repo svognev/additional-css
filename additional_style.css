@@ -95,14 +95,12 @@ body.dabody .dafieldpart .da-field-checkboxes .btn-primary .labelauty-checked-im
 }
 
 body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check {
-  width: 7px;
-  height: 7px;
+  min-width: 6px !important;
+  min-height: 6px !important;
+  max-width: 6px !important;
+  max-height: 6px !important;
   border-radius: 100%;
   background-color: #007bff;
-}
-
-body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-unchecked-image .fa-check {
-  width: 95% !important;
 }
 
 body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check path {
