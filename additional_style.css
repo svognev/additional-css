@@ -73,15 +73,27 @@ body.dabody .dafieldpart .btn-light .labelauty-checked-image {
   display: none !important;
 }
 
+body.dabody .da-field-radio .labelauty-unchecked-image, body.dabody .da-field-radio .labelauty-checked-image {
+  border: 1px solid white !important;
+}
+
+body.dabody .da-field-radio label:hover .labelauty-unchecked-image, .da-field-radio label:hover .labelauty-checked-image {
+  border: 1px solid whitesmoke !important;
+}
+
+body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image .fa-circle {
+  width: 95% !important;
+}
+
 body.dabody .dafieldpart .da-field-checkboxes .btn-primary .labelauty-checked-image .fa-check {
   width: 65% !important;
 }
 
 body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check {
-  min-width: 7px !important;
-  min-height: 7px !important;
-  max-width: 7px !important;
-  max-height: 7px !important;
+  min-width: 6px !important;
+  min-height: 6px !important;
+  max-width: 6px !important;
+  max-height: 6px !important;
   border-radius: 100%;
   background-color: #007bff;
 }
