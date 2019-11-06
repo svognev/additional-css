@@ -57,7 +57,15 @@ body.dabody .labelauty-unchecked-image .text-muted {
 }
 
 body.dabody .dafieldpart input.labelauty:checked + label > span.labelauty-unchecked-image {
-  display: inline-block !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+}
+
+body.dabody .dafieldpart input.labelauty:not(:checked) + label > span.labelauty-checked-image {
+  display: none !important;
 }
 
 body.dabody .dafieldpart .labelauty-checked-image {
@@ -66,8 +74,7 @@ body.dabody .dafieldpart .labelauty-checked-image {
 }
 
 body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image {
-  margin-left: -14px !important;
-  margin-top: -0.4px !important;
+  margin-left: -16px !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
