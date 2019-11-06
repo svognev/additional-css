@@ -11,14 +11,9 @@ body.dabody .hslNavContainer .links {
   display: none !important;
 }
 
-body.dabody .da-field-checkboxes .btn-light {
+body.dabody .dafieldpart .btn-light, body.dabody .dafieldpart .btn-primary {
   display: flex !important;
 }
-
-body.dabody .da-field-checkboxes .btn-primary {
-  display: flex !important;
-}
-
 
 body.dabody .dafieldpart .btn-primary, body.dabody .dafieldpart .btn-light {
   color: #212529 !important;
@@ -96,10 +91,6 @@ body.dabody .dafieldpart .da-field-radio label:hover .labelauty-checked-image {
 
 body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image .fa-circle {
   width: 95% !important;
-}
-
-body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image {
-  margin-left: -16px !important;
 }
 
 body.dabody .dafieldpart .da-field-checkboxes .btn-primary .labelauty-checked-image .fa-check {
