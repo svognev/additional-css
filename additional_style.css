@@ -7,6 +7,21 @@ body.dabody .da-field-buttons .form-actions button:last-child {
   margin-left: auto !important;
 }
 
+body.dabody #hslNav {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 10;
+}
+
+body.dabody .container .da-page-header {
+  position: sticky !important;
+  top: 101px !important;
+  z-index: 9;
+  margin: 0 0 20px !important;
+  padding-top: 40px !important;
+  background-color: white;
+}
+
 body.dabody .hslNavContainer .links {
   display: none !important;
 }
