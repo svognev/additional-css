@@ -189,3 +189,14 @@ body.dabody .da-field-container-note .col-md-12 p {
 }
 
 /* TRANSLATIONS */
+body.dabody .col-md-8.dafieldpart #_ignore0-error {
+  visibility: hidden;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0 min-content;
+}
+
+body.dabody .col-md-8.dafieldpart #_ignore0-error:after {
+  visibility: visible;
+  content: "Bitte wählen Sie mindestens 1 aus.";
+}
