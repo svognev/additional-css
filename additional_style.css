@@ -189,15 +189,3 @@ body.dabody .da-field-container-note .col-md-12 p {
 }
 
 /* TRANSLATIONS */
-body.dabody .col-md-8.dafieldpart #_ignore0-error {
-  visibility: hidden;
-  position: relative;
-}
-
-body.dabody .col-md-8.dafieldpart #_ignore0-error:after {
-  visibility: visible;
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "This text replaces the original.";
-}
