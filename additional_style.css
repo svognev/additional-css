@@ -190,9 +190,14 @@ body.dabody .da-field-container-note .col-md-12 p {
 
 /* TRANSLATIONS */
 body.dabody .col-md-8.dafieldpart #_ignore0-error {
-  display: none !important;
+  visibility: hidden;
+  position: relative;
 }
 
 body.dabody .col-md-8.dafieldpart #_ignore0-error:after {
-  content: "<span>Bitte wählen Sie mindestens 1 aus.</span>";
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "This text replaces the original.";
 }
