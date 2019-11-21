@@ -78,8 +78,8 @@ body.dabody .dafieldpart .labelauty-checked-image {
   display: inline-flex;
   align-items: center !important;
   justify-content: center !important;
-  width: 16px !important;
-  height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
   position: absolute !important;
   color: #007bff !important;
 }
@@ -88,8 +88,8 @@ body.dabody .dafieldpart .labelauty-unchecked-image {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  width: 16px !important;
-  height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
 }
 
 body.dabody .dafieldpart .btn-light .labelauty-checked-image {
