@@ -201,7 +201,7 @@ body.dabody .col-md-8.dafieldpart #_ignore0-error:after {
   content: "Bitte wählen Sie mindestens 1 aus.";
 }
 
-body.dabody .col-md-8.dafieldpart #UHVycG9zZQ-error {
+.da-field-container-datatype-dropdown.da-field-container-inputtype-dropdown.da-group-has-error .da-has-error {
   visibility: hidden;
   width: 100%;
   display: grid;
@@ -209,7 +209,20 @@ body.dabody .col-md-8.dafieldpart #UHVycG9zZQ-error {
   padding-top: 3px;
 }
 
-body.dabody .col-md-8.dafieldpart #UHVycG9zZQ-error:after {
+.da-field-container-datatype-area.da-group-has-error .da-has-error {
+  visibility: hidden;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0 min-content;
+  padding-top: 3px;
+}
+
+.da-field-container-datatype-dropdown.da-field-container-inputtype-dropdown.da-group-has-error .da-has-error:after {
+  visibility: visible;
+  content: "Sie müssen das ausfüllen.";
+}
+
+.da-field-container-datatype-area.da-group-has-error .da-has-error:after {
   visibility: visible;
   content: "Sie müssen das ausfüllen.";
 }
