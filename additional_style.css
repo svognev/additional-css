@@ -193,9 +193,6 @@ body.dabody .col-md-8.dafieldpart #_ignore0-error {
   display: none !important;
 }
 
-body.dabody .col-md-8.dafieldpart:after {
-  content: "Bitte wählen Sie mindestens 1 aus.";
-  display: inline !important;
-  color: #dc3545!important;
-  font-family: "Avenir";
+body.dabody .col-md-8.dafieldpart #_ignore0-error:after {
+  content: "<span>Bitte wählen Sie mindestens 1 aus.</span>";
 }
