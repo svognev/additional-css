@@ -200,3 +200,15 @@ body.dabody .col-md-8.dafieldpart #_ignore0-error:after {
   visibility: visible;
   content: "Bitte wählen Sie mindestens 1 aus.";
 }
+
+body.dabody .col-md-8.dafieldpart #UHVycG9zZQ-error {
+  visibility: hidden;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0 min-content;
+}
+
+body.dabody .col-md-8.dafieldpart #UHVycG9zZQ-error:after {
+  visibility: visible;
+  content: "Sie müssen das ausfüllen.";
+}
