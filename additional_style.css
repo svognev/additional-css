@@ -238,3 +238,16 @@ body.dabody .da-field-container-note .col-md-12 p {
   visibility: visible;
   content: "Sie müssen das ausfüllen.";
 }
+
+.da-field-container-datatype-integer.da-group-has-error .da-has-error {
+  visibility: hidden;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 0 min-content;
+  padding-top: 3px;
+}
+
+.da-field-container-datatype-integer.da-group-has-error .da-has-error:after {
+  visibility: visible;
+  content: "Sie müssen das ausfüllen.";
+}
