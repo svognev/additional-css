@@ -206,6 +206,7 @@ body.dabody .col-md-8.dafieldpart #UHVycG9zZQ-error {
   width: 100%;
   display: grid;
   grid-template-rows: 0 min-content;
+  padding-top: 3px;
 }
 
 body.dabody .col-md-8.dafieldpart #UHVycG9zZQ-error:after {
