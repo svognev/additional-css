@@ -1,253 +1,189 @@
 body.dabody .da-field-buttons .form-actions {
-  display: flex !important;
-  justify-content: space-between !important;
-}
-
-body.dabody .da-field-buttons .form-actions button:last-child {
-  margin-left: auto !important;
-}
-
-body.dabody #hslNav {
-  position: sticky !important;
-  top: 0 !important;
-  z-index: 10;
-}
-
-body.dabody #hslNav .hslNavContainer {
-  padding: 10px 0 5px !important;
-}
-
-body.dabody #hslNav .hslNavContainer .links {
-  display: none !important;
-}
-
-body.dabody .container .da-page-header {
-  position: sticky !important;
-  top: 56px !important;
-  z-index: 9;
-  margin: 0 0 20px !important;
-  padding-bottom: 0 !important;
-  padding-top: 20px !important;
-  background-color: white;
-  -webkit-box-shadow: 0px -100px 0px 100px rgba(255,255,255,1);
-  -moz-box-shadow: 0px -100px 0px 100px rgba(255,255,255,1);
-  box-shadow: 0px -100px 0px 100px rgba(255,255,255,1);
-}
-
-body.dabody .dafieldpart .btn-light, body.dabody .dafieldpart .btn-primary {
-  display: flex !important;
-}
-
-body.dabody .dafieldpart .btn-primary, body.dabody .dafieldpart .btn-light {
-  color: #212529 !important;
-  background-color: white !important;
-  border-color: white !important;
-}
-
-body.dabody .dafieldpart .btn-primary:hover, body.dabody .dafieldpart .btn-primary:hover {
-  color: #212529 !important;
-  background-color: whitesmoke !important;
-  border-color: whitesmoke !important;
-}
-
-body.dabody .dafieldpart .btn-light:hover, body.dabody .dafieldpart .btn-light:hover {
-  color: #212529 !important;
-  background-color: whitesmoke !important;
-  border-color: whitesmoke !important;
-}
-
-body.dabody .dafieldpart .btn-primary:hover:active {
-  box-shadow: none !important;
-}
-
-body.dabody .dafieldpart .btn-primary.focus, body.dabody .dafieldpart .btn-primary:focus {
-  box-shadow: none !important;
-  outline: none;
-}
-
-body.dabody .dafieldpart .btn-light.focus, body.dabody .dafieldpart .btn-light:focus {
-  box-shadow: none !important;
-  outline: none;
-}
-
-body.dabody .labelauty-unchecked-image .text-muted {
- color: #6c757dad !important;
-}
-
-body.dabody .dafieldpart .labelauty-checked-image {
-  display: inline-flex;
-  align-items: center !important;
-  justify-content: center !important;
-  min-width: 16px !important;
-  min-height: 16px !important;
-  position: absolute !important;
-  color: #007bff !important;
-}
-
-body.dabody .dafieldpart .labelauty-unchecked-image {
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  min-width: 16px !important;
-  min-height: 16px !important;
-}
-
-body.dabody .dafieldpart .btn-light .labelauty-checked-image {
-  display: none !important;
-}
-
-body.dabody .da-field-radio .labelauty-unchecked-image, body.dabody .da-field-radio .labelauty-checked-image {
-  border: 1px solid white !important;
-}
-
-body.dabody .da-field-radio label:hover .labelauty-unchecked-image, .da-field-radio label:hover .labelauty-checked-image {
-  border: 1px solid whitesmoke !important;
-}
-
-body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image .fa-circle {
-  width: 95% !important;
-}
-
-body.dabody .dafieldpart .da-field-checkboxes .btn-primary .labelauty-checked-image .fa-check {
-  width: 65% !important;
-}
-
-body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check {
-  min-width: 6px !important;
-  min-height: 6px !important;
-  max-width: 6px !important;
-  max-height: 6px !important;
-  border-radius: 100%;
-  background-color: #007bff;
-}
-
-body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check path {
-  display: none !important;
-}
-
-body.dabody .tab-pane .alert-success {
-  display: none !important;
-}
-
-body.dabody .da-field-container-note .col-md-12 {
-  padding-left: 45px !important;
-  margin-bottom: 1rem !important;
-  background-image: url(https://svognev.github.io/additional-css-for-documate/info_icon.svg);
-  background-repeat: no-repeat;
-  background-position: 14px top;
-  background-size: 19px;
-}
-
-body.dabody .da-field-container-note .col-md-12 p {
-  margin-bottom: 0 !important;
-}
-
-@media (min-width: 767px) {
-  body.dabody .datext-right {
-    min-height: 0 !important;
-    text-align: left !important;
+    display: flex !important;
+    justify-content: space-between !important;
   }
-
-  body.dabody .form-group {
-    margin-bottom: 1.5rem !important;
+  
+  body.dabody .da-field-buttons .form-actions button:last-child {
+    margin-left: auto !important;
   }
-
-  body.dabody .col-md-4 {
-    -ms-flex: none !important;
-    flex: none !important;
-    max-width: none !important;
+  
+  body.dabody #hslNav {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 10;
   }
-
-  body.dabody .form-group.darequired .col-form-label:after {
-    bottom: 0.7rem !important;
-    top: unset !important;
-    right: unset !important;
+  
+  body.dabody #hslNav .hslNavContainer {
+    padding: 10px 0 5px !important;
   }
-
-  body.dabody .col-md-8 {
-    -ms-flex: none !important;
-    max-width: none !important;
-    flex: 0 auto !important;
+  
+  body.dabody #hslNav .hslNavContainer .links {
+    display: none !important;
   }
-
-  body.dabody .offset-md-2 {
-    margin-left: 0 !important;
+  
+  body.dabody .container .da-page-header {
+    position: sticky !important;
+    top: 56px !important;
+    z-index: 9;
+    margin: 0 0 20px !important;
+    padding-bottom: 0 !important;
+    padding-top: 20px !important;
+    background-color: white;
+    -webkit-box-shadow: 0px -100px 0px 100px rgba(255,255,255,1);
+    -moz-box-shadow: 0px -100px 0px 100px rgba(255,255,255,1);
+    box-shadow: 0px -100px 0px 100px rgba(255,255,255,1);
   }
-
-  body.dabody .offset-lg-3 {
-    margin-left: 0 !important;
+  
+  body.dabody .dafieldpart .btn-light, body.dabody .dafieldpart .btn-primary {
+    display: flex !important;
   }
-
-  body.dabody .offset-xl-3 {
-    margin-left: 0 !important;
+  
+  body.dabody .dafieldpart .btn-primary, body.dabody .dafieldpart .btn-light {
+    color: #212529 !important;
+    background-color: white !important;
+    border-color: white !important;
   }
-
-  body.dabody .container {
-    width: 75% !important;
-    max-width: 750px !important;
+  
+  body.dabody .dafieldpart .btn-primary:hover, body.dabody .dafieldpart .btn-primary:hover {
+    color: #212529 !important;
+    background-color: whitesmoke !important;
+    border-color: whitesmoke !important;
   }
-}
-
-/* TRANSLATIONS */
-.da-field-container-datatype-checkboxes.da-field-container-inputtype-checkboxes.da-group-has-error .da-has-error {
-  visibility: hidden;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 0 min-content;
-}
-
-.da-field-container-datatype-checkboxes.da-field-container-inputtype-checkboxes.da-group-has-error .da-has-error:after {
-  visibility: visible;
-  content: "Bitte wählen Sie mindestens 1 aus.";
-}
-
-.da-field-container-datatype-boolean.da-field-container-inputtype-yesnoradio.da-group-has-error .da-has-error {
-  visibility: hidden;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 0 min-content;
-}
-
-.da-field-container-datatype-boolean.da-field-container-inputtype-yesnoradio.da-group-has-error .da-has-error:after {
-  visibility: visible;
-  content: "Sie müssen eine auswählen.";
-}
-
-.da-field-container-datatype-dropdown.da-field-container-inputtype-dropdown.da-group-has-error .da-has-error {
-  visibility: hidden;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 0 min-content;
-  padding-top: 3px;
-}
-
-.da-field-container-datatype-dropdown.da-field-container-inputtype-dropdown.da-group-has-error .da-has-error:after {
-  visibility: visible;
-  content: "Sie müssen das ausfüllen.";
-}
-
-.da-field-container-datatype-area.da-group-has-error .da-has-error {
-  visibility: hidden;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 0 min-content;
-  padding-top: 3px;
-}
-
-.da-field-container-datatype-area.da-group-has-error .da-has-error:after {
-  visibility: visible;
-  content: "Sie müssen das ausfüllen.";
-}
-
-.da-field-container-datatype-integer.da-group-has-error .da-has-error {
-  visibility: hidden;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 0 min-content;
-  padding-top: 3px;
-}
-
-.da-field-container-datatype-integer.da-group-has-error .da-has-error:after {
-  visibility: visible;
-  content: "Sie müssen das ausfüllen.";
-}
+  
+  body.dabody .dafieldpart .btn-light:hover, body.dabody .dafieldpart .btn-light:hover {
+    color: #212529 !important;
+    background-color: whitesmoke !important;
+    border-color: whitesmoke !important;
+  }
+  
+  body.dabody .dafieldpart .btn-primary:hover:active {
+    box-shadow: none !important;
+  }
+  
+  body.dabody .dafieldpart .btn-primary.focus, body.dabody .dafieldpart .btn-primary:focus {
+    box-shadow: none !important;
+    outline: none;
+  }
+  
+  body.dabody .dafieldpart .btn-light.focus, body.dabody .dafieldpart .btn-light:focus {
+    box-shadow: none !important;
+    outline: none;
+  }
+  
+  body.dabody .labelauty-unchecked-image .text-muted {
+   color: #6c757dad !important;
+  }
+  
+  body.dabody .dafieldpart .labelauty-checked-image {
+    display: inline-flex;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 16px !important;
+    min-height: 16px !important;
+    position: absolute !important;
+    color: #007bff !important;
+  }
+  
+  body.dabody .dafieldpart .labelauty-unchecked-image {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 16px !important;
+    min-height: 16px !important;
+  }
+  
+  body.dabody .dafieldpart .btn-light .labelauty-checked-image {
+    display: none !important;
+  }
+  
+  body.dabody .da-field-radio .labelauty-unchecked-image, body.dabody .da-field-radio .labelauty-checked-image {
+    border: 1px solid white !important;
+  }
+  
+  body.dabody .da-field-radio label:hover .labelauty-unchecked-image, .da-field-radio label:hover .labelauty-checked-image {
+    border: 1px solid whitesmoke !important;
+  }
+  
+  body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image .fa-circle {
+    width: 95% !important;
+  }
+  
+  body.dabody .dafieldpart .da-field-checkboxes .btn-primary .labelauty-checked-image .fa-check {
+    width: 65% !important;
+  }
+  
+  body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check {
+    min-width: 6px !important;
+    min-height: 6px !important;
+    max-width: 6px !important;
+    max-height: 6px !important;
+    border-radius: 100%;
+    background-color: #007bff;
+  }
+  
+  body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check path {
+    display: none !important;
+  }
+  
+  body.dabody .tab-pane .alert-success {
+    display: none !important;
+  }
+  
+  body.dabody .da-field-container-note .col-md-12 {
+    padding-left: 45px !important;
+    margin-bottom: 1rem !important;
+    background-image: url(https://svognev.github.io/additional-css-for-documate/info_icon.svg);
+    background-repeat: no-repeat;
+    background-position: 14px top;
+    background-size: 19px;
+  }
+  
+  body.dabody .da-field-container-note .col-md-12 p {
+    margin-bottom: 0 !important;
+  }
+  
+  @media (min-width: 767px) {
+    body.dabody .datext-right {
+      min-height: 0 !important;
+      text-align: left !important;
+    }
+  
+    body.dabody .form-group {
+      margin-bottom: 1.5rem !important;
+    }
+  
+    body.dabody .col-md-4 {
+      -ms-flex: none !important;
+      flex: none !important;
+      max-width: none !important;
+    }
+  
+    body.dabody .form-group.darequired .col-form-label:after {
+      bottom: 0.7rem !important;
+      top: unset !important;
+      right: unset !important;
+    }
+  
+    body.dabody .col-md-8 {
+      -ms-flex: none !important;
+      max-width: none !important;
+      flex: 0 auto !important;
+    }
+  
+    body.dabody .offset-md-2 {
+      margin-left: 0 !important;
+    }
+  
+    body.dabody .offset-lg-3 {
+      margin-left: 0 !important;
+    }
+  
+    body.dabody .offset-xl-3 {
+      margin-left: 0 !important;
+    }
+  
+    body.dabody .container {
+      width: 75% !important;
+      max-width: 750px !important;
+    }
+  }  
