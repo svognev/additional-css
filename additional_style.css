@@ -34,38 +34,38 @@ body.dabody .da-field-buttons .form-actions {
     box-shadow: 0px -100px 0px 100px rgba(255,255,255,1);
   }
   
-  body.dabody .dafieldpart .btn-light, body.dabody .dafieldpart .btn-primary {
+  body.dabody .form-group .btn-light, body.dabody .form-group .btn-primary {
     display: flex !important;
   }
   
-  body.dabody .dafieldpart .btn-primary, body.dabody .dafieldpart .btn-light {
+  body.dabody .form-group .btn-primary, body.dabody .form-group .btn-light {
     color: #212529 !important;
     background-color: white !important;
     border-color: white !important;
   }
   
-  body.dabody .dafieldpart .btn-primary:hover, body.dabody .dafieldpart .btn-primary:hover {
+  body.dabody .form-group .btn-primary:hover, body.dabody .form-group .btn-primary:hover {
     color: #212529 !important;
     background-color: whitesmoke !important;
     border-color: whitesmoke !important;
   }
   
-  body.dabody .dafieldpart .btn-light:hover, body.dabody .dafieldpart .btn-light:hover {
+  body.dabody .form-group .btn-light:hover, body.dabody .form-group .btn-light:hover {
     color: #212529 !important;
     background-color: whitesmoke !important;
     border-color: whitesmoke !important;
   }
   
-  body.dabody .dafieldpart .btn-primary:hover:active {
+  body.dabody .form-group .btn-primary:hover:active {
     box-shadow: none !important;
   }
   
-  body.dabody .dafieldpart .btn-primary.focus, body.dabody .dafieldpart .btn-primary:focus {
+  body.dabody .form-group .btn-primary.focus, body.dabody .form-group .btn-primary:focus {
     box-shadow: none !important;
     outline: none;
   }
   
-  body.dabody .dafieldpart .btn-light.focus, body.dabody .dafieldpart .btn-light:focus {
+  body.dabody .form-group .btn-light.focus, body.dabody .form-group .btn-light:focus {
     box-shadow: none !important;
     outline: none;
   }
@@ -74,7 +74,7 @@ body.dabody .da-field-buttons .form-actions {
    color: #6c757dad !important;
   }
   
-  body.dabody .dafieldpart .labelauty-checked-image {
+  body.dabody .form-group .labelauty-checked-image {
     display: inline-flex;
     align-items: center !important;
     justify-content: center !important;
@@ -84,7 +84,7 @@ body.dabody .da-field-buttons .form-actions {
     color: #007bff !important;
   }
   
-  body.dabody .dafieldpart .labelauty-unchecked-image {
+  body.dabody .form-group .labelauty-unchecked-image {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -92,7 +92,7 @@ body.dabody .da-field-buttons .form-actions {
     min-height: 16px !important;
   }
   
-  body.dabody .dafieldpart .btn-light .labelauty-checked-image {
+  body.dabody .form-group .btn-light .labelauty-checked-image {
     display: none !important;
   }
   
@@ -104,15 +104,15 @@ body.dabody .da-field-buttons .form-actions {
     border: 1px solid whitesmoke !important;
   }
   
-  body.dabody .dafieldpart .da-field-radio .labelauty-unchecked-image .fa-circle {
+  body.dabody .form-group .da-field-radio .labelauty-unchecked-image .fa-circle {
     width: 95% !important;
   }
   
-  body.dabody .dafieldpart .da-field-checkboxes .btn-primary .labelauty-checked-image .fa-check {
+  body.dabody .form-group .da-field-checkboxes .btn-primary .labelauty-checked-image .fa-check {
     width: 65% !important;
   }
   
-  body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check {
+  body.dabody .form-group .da-field-radio .btn-primary .labelauty-checked-image .fa-check {
     min-width: 6px !important;
     min-height: 6px !important;
     max-width: 6px !important;
@@ -121,7 +121,7 @@ body.dabody .da-field-buttons .form-actions {
     background-color: #007bff;
   }
   
-  body.dabody .dafieldpart .da-field-radio .btn-primary .labelauty-checked-image .fa-check path {
+  body.dabody .form-group .da-field-radio .btn-primary .labelauty-checked-image .fa-check path {
     display: none !important;
   }
   
