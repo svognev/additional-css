@@ -145,18 +145,23 @@ body.dabody .da-field-container-note .col-md-12 p {
 body.dabody .navbar .fixed-top {
   position: sticky !important;
 }
+
 body.dabody #dabackbutton {
   display: none !important;
 }
+
 body.dabody .nav .navbar-nav .damynavbar-right {
   display: none !important;
 }
+
 body.dabody #danavbar-collapse {
   display: none !important;
 }
+
 body.dabody #damobile-toggler {
   display: none !important;
 }
+
 .da-pad-for-navbar {
   padding-top: 0 !important;
 }
@@ -208,7 +213,7 @@ body.dabody #damobile-toggler {
   body.dabody .danavbar-title {
     max-width: 80% !important;
   }
-  .navbar-expand-md>.container {
+  body.dabody .navbar-brand  {
     white-space: normal !important;
   }
 }  
