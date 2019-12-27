@@ -150,7 +150,7 @@ body.dabody #dabackbutton {
   display: none !important;
 }
 
-body.dabody .nav .navbar-nav .damynavbar-right {
+body.dabody .navbar-nav {
   display: none !important;
 }
 
@@ -164,6 +164,13 @@ body.dabody #damobile-toggler {
 
 .da-pad-for-navbar {
   padding-top: 0 !important;
+}
+
+body.dabody .danavbar-title {
+  max-width: 80% !important;
+}
+body.dabody .navbar-brand  {
+  white-space: normal !important;
 }
 
 @media (min-width: 767px) {
@@ -209,11 +216,5 @@ body.dabody #damobile-toggler {
   body.dabody .container {
     width: 75% !important;
     max-width: 750px !important;
-  }
-  body.dabody .danavbar-title {
-    max-width: 80% !important;
-  }
-  body.dabody .navbar-brand  {
-    white-space: normal !important;
   }
 }  
